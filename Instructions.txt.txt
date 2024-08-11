@@ -1,0 +1,8 @@
+WELCOME TO MY FORCED PERSPECTIVE MODULE
+
+As far as I know, this is the best implementation in Unity that is open to read and modify. I know it isn't perfect, but I am confident that this gives a good baseline for how it should work. Basically all of the things you need are in this package. The main stuff is the scripts and standard assets. But you can use the FPSController prefab as well if you need. Basically in your unity project you need to make sure that 
+
+1. You have a tag labeled "Getable" that you have to apply to any and all objects that you want to be manipulated.
+2. You have a physics layer named "GrabbedObjectLayer"
+
+Other than that you should probably make a separate physics layer for your player, if you do make sure to name it "Player" that is case sensitive (as is the other things you need to add). The rest of the code is pretty self explanatory, just read through it and try to understand it.
